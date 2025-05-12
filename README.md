@@ -9,7 +9,7 @@ The [`basic_wrapper`](basic_wrapper.hpp) template class:
 
   - Check for validity: `operator bool` and `is_valid()`.
 
-  - Explicit destruction with `.destroy() method.
+  - Explicit destruction with `.destroy()` method, leaving it invalid.
 
   - Move constructor and move assignment, leaving the source in invalid state.
 
