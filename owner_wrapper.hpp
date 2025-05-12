@@ -22,7 +22,7 @@ namespace detail {
 
     // This wrapper has an "owner" flag. When false, it will not destroy the raw object.
     template<typename T,
-             T InvalidValue>
+             T InvalidValue = T{}>
     class owner_wrapper : public basic_wrapper<T, InvalidValue> {
 
     protected:
