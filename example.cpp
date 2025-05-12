@@ -61,7 +61,7 @@ struct foo : detail::basic_wrapper<Foo*> {
     destroy()
         noexcept override
     {
-        if (raw != invalid_value)
+        if (is_valid())
             foo_destroy(release());
     }
 

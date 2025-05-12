@@ -72,11 +72,11 @@ namespace detail {
 
 
         void
-        acquire(typename parent_type::state_type new_p_state,
+        acquire(typename parent_type::state_type new_parent_state,
                 bool new_owner = true)
             noexcept
         {
-            acquire(state_t{new_p_state, new_owner});
+            acquire(state_t{new_parent_state, new_owner});
         }
 
 
