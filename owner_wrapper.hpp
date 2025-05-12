@@ -76,7 +76,7 @@ namespace detail {
                 bool new_owner = true)
             noexcept
         {
-            acquire(state_t{new_parent_state, new_owner});
+            acquire(state_type{new_parent_state, new_owner});
         }
 
 
