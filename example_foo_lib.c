@@ -1,3 +1,10 @@
+/*
+ * basic_wrapper - base class for C++ wrappers
+ * Copyright 2025  Daniel K. O. (dkosmari)
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
