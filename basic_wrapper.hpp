@@ -1,6 +1,6 @@
 /*
  * basic_wrapper - base class for C++ wrappers
- * Copyright 2025  Daniel K. O. (dkosmari)
+ * Copyright 2025-2026  Daniel K. O. (dkosmari)
  *
  * This software can be distributed under the terms of any of the following licenses:
  *   SPDX-License-Identifier: Apache-2.0
@@ -98,6 +98,7 @@ namespace detail {
         }
 
 
+        [[nodiscard]]
         raw_type
         data()
             noexcept
@@ -106,6 +107,7 @@ namespace detail {
         }
 
 
+        [[nodiscard]]
         const raw_type
         data()
             const noexcept
